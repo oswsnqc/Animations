@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833677721B30AD4900EA447F /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336776D1B30AD4900EA447F /* frame1.png */; };
+		833677731B30AD4900EA447F /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336776E1B30AD4900EA447F /* frame2.png */; };
+		833677741B30AD4900EA447F /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336776F1B30AD4900EA447F /* frame3.png */; };
+		833677751B30AD4900EA447F /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = 833677701B30AD4900EA447F /* frame4.png */; };
+		833677761B30AD4900EA447F /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = 833677711B30AD4900EA447F /* frame5.png */; };
 		83C26D061B2FF5E2000FA340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C26D051B2FF5E2000FA340 /* AppDelegate.swift */; };
 		83C26D081B2FF5E2000FA340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C26D071B2FF5E2000FA340 /* ViewController.swift */; };
 		83C26D0B1B2FF5E2000FA340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C26D091B2FF5E2000FA340 /* Main.storyboard */; };
@@ -26,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8336776D1B30AD4900EA447F /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		8336776E1B30AD4900EA447F /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		8336776F1B30AD4900EA447F /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		833677701B30AD4900EA447F /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		833677711B30AD4900EA447F /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
 		83C26D001B2FF5E2000FA340 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C26D041B2FF5E2000FA340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83C26D051B2FF5E2000FA340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,11 @@
 				83C26D051B2FF5E2000FA340 /* AppDelegate.swift */,
 				83C26D071B2FF5E2000FA340 /* ViewController.swift */,
 				83C26D091B2FF5E2000FA340 /* Main.storyboard */,
+				8336776D1B30AD4900EA447F /* frame1.png */,
+				8336776E1B30AD4900EA447F /* frame2.png */,
+				8336776F1B30AD4900EA447F /* frame3.png */,
+				833677701B30AD4900EA447F /* frame4.png */,
+				833677711B30AD4900EA447F /* frame5.png */,
 				83C26D0C1B2FF5E2000FA340 /* Images.xcassets */,
 				83C26D0E1B2FF5E2000FA340 /* LaunchScreen.xib */,
 				83C26D031B2FF5E2000FA340 /* Supporting Files */,
@@ -192,7 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833677731B30AD4900EA447F /* frame2.png in Resources */,
+				833677741B30AD4900EA447F /* frame3.png in Resources */,
+				833677751B30AD4900EA447F /* frame4.png in Resources */,
 				83C26D0B1B2FF5E2000FA340 /* Main.storyboard in Resources */,
+				833677721B30AD4900EA447F /* frame1.png in Resources */,
+				833677761B30AD4900EA447F /* frame5.png in Resources */,
 				83C26D101B2FF5E2000FA340 /* LaunchScreen.xib in Resources */,
 				83C26D0D1B2FF5E2000FA340 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +429,7 @@
 				83C26D211B2FF5E2000FA340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C26D221B2FF5E2000FA340 /* Build configuration list for PBXNativeTarget "AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				83C26D241B2FF5E2000FA340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
